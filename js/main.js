@@ -12,7 +12,7 @@
                 html += '<div class="prod-list__item">';
                             if (item.img !== undefined) {
                                 html += '<div class="prod-list__item-left">' +
-                                            '<img src="' + item.src + '">' +
+                                            '<img src="' + item.img + '">' +
                                         '</div>';
                             }
                              html += '<div class="prod-list__item-right">' +
@@ -54,9 +54,15 @@
         });
     }
 
-    function setClickHandlers(item) {
+    function setActiveTab(item, links) {
+        links.removeClass('active');
+        $(item).addClass('active');
+    }
+
+    function setClickHandlers(item, links) {
         $(item).on('click.linkTabs', function (e) {
             e.preventDefault();
+            setActiveTab(this, links);
             initAjax(this);
         });
     }
@@ -68,7 +74,7 @@
         }
         var links = block.find('.link-tabs__link');
         links.each(function (i, item) {
-           setClickHandlers(item);
+           setClickHandlers(item, links);
         });
     }
 

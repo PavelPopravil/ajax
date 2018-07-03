@@ -302,21 +302,58 @@ textarea {
 }
 
 .link-tabs__link:hover,
-.link-tabs__link:focus {
+.link-tabs__link.active {
     background-color: #84B4E5;
     color: #e5dd00;
 }
 
 .prod-list {
-
+    margin: 30px;
 }
 
 .prod-list__preloader:not(.active) {
     display: none;
 }
 
-.prod-list__inner {
+.prod-list__list {
 
+}
+
+.prod-list__item {
+    display: flex;
+    margin: 0 -10px;
+    padding: 30px;
+    border: 1px solid #84B4E5;
+}
+
+.prod-list__item-left {
+    flex-basis: 25%;
+    padding: 0 10px;
+    max-width: 25%;
+}
+
+.prod-list__item-left + .prod-list__item-right {
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.prod-list__item-right {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.prod-list__item-name {
+    margin-top: 0;
+}
+
+.prod-list__item-article {
+    margin-bottom: 10px;
+}
+
+.prod-list__item-cost .cost {
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .cssload-thecube {
