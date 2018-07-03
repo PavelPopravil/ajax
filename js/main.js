@@ -6,7 +6,7 @@
     var prodListInner = prodList.find('.prod-list__inner');
 
     function createDataItem(data) {
-        var html;
+        var html = '';
         html += '<div class="prod-list__list">';
             data.items.forEach(function (item) {
                 html += '<div class="prod-list__item">';
@@ -16,7 +16,7 @@
                                         '</div>';
                             }
                              html += '<div class="prod-list__item-right">' +
-                                '<div class="h3 prod-list__item-name">' + item.name + '</div>' +
+                                '<h3 class="prod-list__item-name">' + item.name + '</h3>' +
                                 '<div class="prod-list__item-article">' + item.article + '</div>';
                                 if (item.descr !== undefined) {
                                     html += '<div class="prod-list__item-descr"><p>' + item.descr + '</p></div>'
