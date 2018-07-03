@@ -34,7 +34,7 @@
 
     function initAjax(item) {
         $.ajax({
-            methgod: 'GET',
+            method: 'GET',
             dataType: 'json',
             url: $(item).data('json'),
             crossDomain: true,
