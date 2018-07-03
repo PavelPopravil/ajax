@@ -5,19 +5,22 @@
       "img": "https://github.com/PavelPopravil/ajax/blob/master/img/Logitech_Wireless_Touch_Keyboard_K400_Plus_Black.jpg",
       "article": "(920-007147)",
       "descr": "Удобные, бесшумные клавиши и большая сенсорная панель (3,5 дюйма) облегчают навигацию. Радиус действия беспроводной связи — 10 метров (33 фута). Совместимость клавиатуры с мультимедийными устройствами для телевизора.",
-      "cost": "49.95"
+      "cost": "49.95",
+      "currency": "руб"
     },
     {
       "name": "Клавиатура Logitech G413 Carbon",
       "img": "https://github.com/PavelPopravil/ajax/blob/master/img/Logitech_G413_Carbon.jpeg",
       "article": "[920-008309]",
-      "cost": "175"
+      "cost": "175",
+      "currency": "руб"
     },
     {
       "name": "Клавиатура Logitech Corded Keyboard K280e",
       "img": "https://github.com/PavelPopravil/ajax/blob/master/img/Logitech_Corded_Keyboard_K280e.jpeg",
       "article": "(920-005215)",
-      "cost": "30"
+      "cost": "30",
+      "currency": "руб"
     }
   ]
 }

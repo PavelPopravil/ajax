@@ -4,17 +4,20 @@
       "name": "Acer Wireless Touch Keyboard K400 Plus Black",
       "article": "(920-007147)",
       "descr": "Удобные, бесшумные клавиши и большая сенсорная панель (3,5 дюйма) облегчают навигацию. Радиус действия беспроводной связи — 10 метров (33 фута). Совместимость клавиатуры с мультимедийными устройствами для телевизора.",
-      "cost": "49.95"
+      "cost": "49.95",
+      "currency": "руб"
     },
     {
       "name": "Asus Logitech G413 Carbon",
       "article": "[920-008309]",
-      "cost": "175"
+      "cost": "175",
+      "currency": "руб"
     },
     {
       "name": "HP Logitech Corded Keyboard K280e",
       "article": "(920-005215)",
-      "cost": "30"
+      "cost": "30",
+      "currency": "руб"
     }
   ]
 }
